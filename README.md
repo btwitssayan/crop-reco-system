@@ -18,7 +18,7 @@ This is a Flask-based web application for crop recommendation. It provides sugge
 ### Steps
 1. Clone the repository and navigate to the `flask_app` directory:
     ```sh
-    git clone https://github.com/yourusername/crop-reco-system.git
+    git clone https://github.com/btwitssayan/crop-reco-system.git
     cd crop-reco-system
     git checkout flask-app
     cd flask_app
