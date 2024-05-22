@@ -48,7 +48,7 @@ The Crop Recommendation System represents a valuable tool for enhancing agricult
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/crop-reco-system.git
+    git clone https://github.com/btwitssayan/crop-reco-system.git
     cd crop-reco-system
     ```
 
