@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    {% if result %}
+        <h3>Ideal Environment for {{ crop_name }}:</h3>
+        <ul>
+            <li>Nitrogen: {{ result['N'] }}</li>
+            <li>Phosphorus: {{ result['P'] }}</li>
+            <li>Potassium: {{ result['K'] }}</li>
+            <li>Temperature: {{ result['temperature'] }}</li>
+            <li>Humidity: {{ result['humidity'] }}</li>
+            <li>pH Level: {{ result['ph'] }}</li>
+            <li>Rainfall: {{ result['rainfall'] }}</li>
+        </ul>
+    {% elif error %}
+        <p>{{ error }}</p>
+    {% endif %}
+</div>
+{% endblock %}
