@@ -18,7 +18,7 @@ This is a Streamlit-based web application for crop recommendation. It offers an 
 ### Steps
 1. Clone the repository and navigate to the `streamlit_app` directory:
     ```sh
-    git clone https://github.com/btwitssayan/crop-reco-system.git
+    git clone -b streamlit-app https://github.com/btwitssayan/crop-reco-system.git
     cd crop-reco-system
     git checkout streamlit-app
     cd streamlit_app
