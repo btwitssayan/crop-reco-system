@@ -8,9 +8,9 @@ from sklearn.preprocessing import LabelEncoder
 df = pd.read_csv('Crop_recommendation.csv')
 
 # Load the model, scaler, and encoder
-model = joblib.load('D:\\crop-recommendation-project\\streamlit-app\\trained_model.joblib')
-scaler = joblib.load('D:\\crop-recommendation-project\\streamlit-app\\feature_scaler.joblib')
-encoder = joblib.load('D:\\crop-recommendation-project\\streamlit-app\\encoder.joblib')
+model = joblib.load('trained_model.joblib')
+scaler = joblib.load('feature_scaler.joblib')
+encoder = joblib.load('encoder.joblib')
 
 def get_ideal_surroundings(crop_name, dataframe):
     crop_data = dataframe[dataframe['label'] == crop_name]
